@@ -3,17 +3,17 @@
     'name': "api corona virus",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+            Short (1 phrase/line) summary of the module's purpose, used as
+            subtitle on modules listing or apps.openerp.com
+        """,
 
     'description': """
-        Corona Virus API
-	special thanks to https://services1.arcgis.com
-    """,
+            Corona Virus API
+	        special thanks to https://services1.arcgis.com
+        """,
 
     'author': "Arman Nur Hidayat",
     'website': "https://github.com/armannurhidayat",
-
 
     'category': 'Uncategorized',
     'version': '0.1',
@@ -27,4 +27,8 @@
         'views/squence.xml',
         'views/views.xml',
     ],
+
+    'installable': True,
+    'application': True,
+    'auto_install': False,
 }
